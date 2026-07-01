@@ -18,7 +18,7 @@ class c1 extends StatelessWidget {
 
           children: [
 
-            CircleAvatar(backgroundImage: NetworkImage("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAyXVMYDLK-R7L_i3wq-aVEBnNUCt3PScTwA&s"), radius: 50.00,),
+            CircleAvatar(backgroundImage: AssetImage("assets/PROFILE.jpg"), radius: 50.00,),
             SizedBox( height: 25,),
 
             Column
